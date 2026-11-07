@@ -17,7 +17,7 @@
 <title>Krishna Shakti Electricals | Electrical Shop in Kondhwa Budruk, Pune since 1968</title>
 <meta name="description" content="Family-run electrical shop in Pune since 1968, now in Kondhwa Budruk. Wires, cables, switches, MCBs, LED lights and fans for homes, electricians and contractors in Kondhwa and Shantinagar. Call 096898 80810.">
 <link rel="canonical" href="https://krishnashaktielectricals.github.io/">
-<meta name="theme-color" content="#1a3a8a">
+<meta name="theme-color" content="#c8102e">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://krishnashaktielectricals.github.io/">
@@ -80,19 +80,19 @@
 <style>
 /*
   Design: Indian enamel shop signboard + three-phase wiring colours.
-  Cobalt enamel, signboard white, phase red / yellow / blue.
+  Brand colours: signboard red and yellow (owner's theme).
   The signboard hero is the one loud element. Everything else is quiet.
 */
 :root{
-  --cobalt:#1a3a8a;
-  --cobalt-deep:#10275f;
+  --brand:#c8102e;
+  --brand-deep:#8a0c1c;
   --enamel:#ffffff;
-  --paper:#f1f3f8;
-  --ink:#141a2e;
-  --muted:#4d566b;
-  --rule:#d5dae6;
+  --paper:#fff7db;
+  --ink:#1c1414;
+  --muted:#5b4f4a;
+  --rule:#ecdcb0;
   --r:#d7261e;   /* R phase */
-  --y:#f5b800;   /* Y phase */
+  --y:#ffc20e;   /* Y phase */
   --b:#2357c9;   /* B phase */
   --wa:#178a45;
   --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
@@ -106,13 +106,13 @@ a{color:inherit}
 [lang="mr"]{font-family:"Mukta",var(--body)}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
 h1,h2,h3{font-family:var(--display);font-weight:900;line-height:1.02;margin:0;letter-spacing:.01em}
-h2{font-size:clamp(2.2rem,5.5vw,3.6rem);color:var(--cobalt)}
+h2{font-size:clamp(2.2rem,5.5vw,3.6rem);color:var(--brand)}
 p{margin:0 0 1em;max-width:62ch}
 .section{padding:72px 0;scroll-margin-top:64px}
 .section-paper{background:var(--paper)}
 
 /* top strip */
-.top{background:var(--cobalt-deep);color:#dfe5f3;font-size:.92rem}
+.top{background:var(--brand-deep);color:#ffe3e7;font-size:.92rem}
 .top .wrap{display:flex;justify-content:space-between;align-items:center;min-height:44px;gap:12px}
 .top nav{display:flex;gap:20px}
 .top a{text-decoration:none}
@@ -122,20 +122,20 @@ p{margin:0 0 1em;max-width:62ch}
 
 /* hero: the signboard */
 .hero{background:
-  radial-gradient(120% 80% at 50% 0%,#24489f 0%,var(--cobalt) 45%,var(--cobalt-deep) 100%);
+  radial-gradient(120% 80% at 50% 0%,#e0263f 0%,var(--brand) 45%,var(--brand-deep) 100%);
   color:#fff;padding:48px 0 56px;overflow:hidden}
-.sign{position:relative;margin:0 auto;max-width:860px;background:var(--cobalt);border-radius:22px;padding:40px 28px 0;text-align:center;
-  box-shadow:0 2px 0 rgba(255,255,255,.18) inset,0 24px 50px rgba(5,14,40,.55);
+.sign{position:relative;margin:0 auto;max-width:860px;background:var(--brand);border-radius:22px;padding:40px 28px 0;text-align:center;
+  box-shadow:0 2px 0 rgba(255,255,255,.18) inset,0 24px 50px rgba(50,0,8,.55);
   background-image:linear-gradient(160deg,rgba(255,255,255,.14) 0%,rgba(255,255,255,0) 38%)}
-.sign::before{content:"";position:absolute;inset:12px;border:3px solid var(--enamel);border-radius:13px;pointer-events:none}
+.sign::before{content:"";position:absolute;inset:12px;border:3px solid var(--y);border-radius:13px;pointer-events:none}
 .rivet{position:absolute;width:12px;height:12px;border-radius:50%;
   background:radial-gradient(circle at 35% 35%,#fff 0 18%,#c9ced9 30%,#7d8596 100%);box-shadow:0 1px 1px rgba(0,0,0,.4)}
 .rivet.tl{top:22px;left:22px}.rivet.tr{top:22px;right:22px}.rivet.bl{bottom:22px;left:22px}.rivet.br{bottom:22px;right:22px}
-.sign-mr{font-family:var(--body);font-weight:600;font-size:clamp(1rem,2.6vw,1.3rem);color:var(--y);margin:0 auto 6px;letter-spacing:.02em}
-.sign h1{font-size:clamp(3.1rem,11vw,7rem);text-transform:uppercase;line-height:.92;letter-spacing:.015em;
-  text-shadow:0 3px 0 var(--cobalt-deep)}
-.sign h1 .l2{display:block;font-size:.52em;letter-spacing:.2em;margin-top:.18em;font-weight:700}
-.sign-band{margin:28px -28px 0;background:var(--r);border-radius:0 0 22px 22px;padding:14px 20px 16px;
+.sign-mr{font-family:var(--body);font-weight:600;font-size:clamp(1rem,2.6vw,1.3rem);color:#fff;margin:0 auto 6px;letter-spacing:.02em}
+.sign h1{color:var(--y);font-size:clamp(3.1rem,11vw,7rem);text-transform:uppercase;line-height:.92;letter-spacing:.015em;
+  text-shadow:0 3px 0 var(--brand-deep)}
+.sign h1 .l2{color:#fff;display:block;font-size:.52em;letter-spacing:.2em;margin-top:.18em;font-weight:700}
+.sign-band{margin:28px -28px 0;background:var(--y);color:var(--brand-deep);border-radius:0 0 22px 22px;padding:14px 20px 16px;
   display:flex;justify-content:center;align-items:baseline;gap:18px;flex-wrap:wrap}
 .sign-band .since{font-family:var(--display);font-weight:900;font-size:clamp(1.5rem,4vw,2.1rem);text-transform:uppercase;letter-spacing:.08em}
 .sign-band .mr{font-weight:600;font-size:1.1rem}
@@ -152,7 +152,7 @@ p{margin:0 0 1em;max-width:62ch}
 @media (prefers-reduced-motion:reduce){.wires span{animation:none}}
 
 .hero-lead{max-width:860px;margin:28px auto 0;text-align:center}
-.hero-lead p{margin:0 auto 22px;font-size:clamp(1.1rem,2.4vw,1.3rem);color:#dfe5f3;max-width:48ch}
+.hero-lead p{margin:0 auto 22px;font-size:clamp(1.1rem,2.4vw,1.3rem);color:#ffe9ec;max-width:48ch}
 .btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:10px 22px;border-radius:12px;
   font-weight:600;font-size:1.05rem;text-decoration:none;border:2px solid transparent}
@@ -162,14 +162,14 @@ p{margin:0 0 1em;max-width:62ch}
 .btn-wa:hover{background:#127539}
 .btn-line{border-color:rgba(255,255,255,.7);color:#fff}
 .btn-line:hover{background:rgba(255,255,255,.1)}
-.btn-ink{border-color:var(--cobalt);color:var(--cobalt)}
-.btn-ink:hover{background:var(--cobalt);color:#fff}
+.btn-ink{border-color:var(--brand);color:var(--brand)}
+.btn-ink:hover{background:var(--brand);color:#fff}
 .btn svg{width:20px;height:20px;flex:none}
 
 /* legacy */
 .legacy{display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:center}
 .year{font-family:var(--display);font-weight:900;font-size:clamp(7rem,22vw,15rem);line-height:.8;color:transparent;
-  -webkit-text-stroke:3px var(--cobalt);letter-spacing:-.01em;margin:0}
+  -webkit-text-stroke:3px var(--brand);letter-spacing:-.01em;margin:0}
 .legacy h2{margin-bottom:18px}
 .legacy p{font-size:1.1rem}
 .legacy .year{font-size:clamp(7rem,22vw,15rem);max-width:none}
@@ -197,16 +197,16 @@ p{margin:0 0 1em;max-width:62ch}
 .visit{display:grid;grid-template-columns:1fr 1.25fr;gap:40px;align-items:start}
 @media (max-width:820px){.visit{grid-template-columns:1fr}}
 .visit dl{margin:24px 0 0}
-.visit dt{font-family:var(--display);font-weight:700;font-size:1.25rem;text-transform:uppercase;letter-spacing:.06em;color:var(--cobalt);margin-top:18px}
+.visit dt{font-family:var(--display);font-weight:700;font-size:1.25rem;text-transform:uppercase;letter-spacing:.06em;color:var(--brand);margin-top:18px}
 .visit dd{margin:2px 0 0;font-size:1.08rem}
 .visit .btns{justify-content:flex-start;margin-top:28px}
 .map{width:100%;height:400px;border:3px solid var(--ink);border-radius:16px;background:var(--paper)}
 
 /* review plate: small echo of the signboard */
-.plate{position:relative;background:var(--cobalt);color:#fff;border-radius:18px;padding:36px 32px;display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between}
-.plate::before{content:"";position:absolute;inset:8px;border:2px solid rgba(255,255,255,.85);border-radius:12px;pointer-events:none}
-.plate h2{color:#fff;font-size:clamp(2rem,4.5vw,2.8rem)}
-.plate p{margin:8px 0 0;color:#dfe5f3}
+.plate{position:relative;background:var(--brand);color:#fff;border-radius:18px;padding:36px 32px;display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between}
+.plate::before{content:"";position:absolute;inset:8px;border:2px solid var(--y);border-radius:12px;pointer-events:none}
+.plate h2{color:var(--y);font-size:clamp(2rem,4.5vw,2.8rem)}
+.plate p{margin:8px 0 0;color:#ffe9ec}
 .plate .btn{position:relative}
 
 /* faq */
@@ -214,18 +214,18 @@ p{margin:0 0 1em;max-width:62ch}
 .faq details{border-bottom:1px solid var(--rule)}
 .faq summary{list-style:none;cursor:pointer;padding:20px 40px 20px 0;font-weight:600;font-size:1.12rem;position:relative}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;right:4px;top:12px;font-family:var(--display);font-size:2rem;color:var(--cobalt);transition:transform .2s}
+.faq summary::after{content:"+";position:absolute;right:4px;top:12px;font-family:var(--display);font-size:2rem;color:var(--brand);transition:transform .2s}
 .faq details[open] summary::after{transform:rotate(45deg)}
 .faq details p{color:var(--muted);padding-bottom:18px;margin:0}
 
-footer{background:var(--cobalt-deep);color:#c7d0e6;padding:48px 0 110px;font-size:.98rem}
+footer{background:var(--brand-deep);color:#ffd9de;padding:48px 0 110px;font-size:.98rem}
 footer .name{font-family:var(--display);font-weight:900;font-size:2rem;color:#fff;text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px}
 footer .since{color:var(--y);font-weight:600}
 footer p{margin:0 0 .6em}
 
 /* phone action bar */
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;grid-template-columns:1fr 1fr 1fr;border-top:3px solid var(--y);
-  padding-bottom:env(safe-area-inset-bottom);background:var(--cobalt-deep)}
+  padding-bottom:env(safe-area-inset-bottom);background:var(--brand-deep)}
 .bar a{padding:14px 4px;text-align:center;font-weight:600;text-decoration:none;color:#fff}
 .bar a:nth-child(1){background:var(--y);color:var(--ink)}
 .bar a:nth-child(2){background:var(--wa)}
