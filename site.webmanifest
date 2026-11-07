@@ -2,7 +2,7 @@
   "name": "Krishna Shakti Electricals",
   "short_name": "Krishna Shakti",
   "icons": [{ "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" }],
-  "theme_color": "#0f2a4a",
+  "theme_color": "#1a3a8a",
   "background_color": "#ffffff",
   "display": "browser"
 }
